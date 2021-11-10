@@ -38,11 +38,6 @@ h2{
     width: 100%;
     display: block;
 }
-
-#navbar {
-    top: 0;
-    transition: top 0.3s;
-}
   
 #navbar a{
     float: left;
