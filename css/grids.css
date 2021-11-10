@@ -186,6 +186,7 @@
     }
     
     #navbar {
+        top: 0px;
         transition: top 0.3s;
     }
 
