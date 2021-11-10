@@ -40,11 +40,6 @@ h2{
     
     
 }
-
-#navbar {
-    top: -100px;
-    transition: top 0.3s;
-}
   
 #navbar a{
     float: left;
