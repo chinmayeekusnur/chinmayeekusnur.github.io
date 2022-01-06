@@ -42,6 +42,10 @@ h2{
 }
 
 #navbar_1{
+    background-color: #252526;
+    position: fixed;
+    width: 100%;
+    display: block;
     top: 0px;
 }
 
