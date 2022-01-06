@@ -41,6 +41,10 @@ h2{
     
 }
 
+#navbar_1{
+    top: 0px;
+}
+
 #navbar {
     top: 0px;
     transition: top 0.3s;
