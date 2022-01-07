@@ -54,7 +54,19 @@ h2{
     transition: top 0.3s;
 }
   
-#navbar a, #navbar_1 a{
+#navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+#navbar_1 a{
     float: left;
     display: block;
     color: #f2f2f2;
