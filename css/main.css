@@ -54,7 +54,7 @@ h2{
     transition: top 0.3s;
 }
   
-#navbar a{
+#navbar a, #navbar_1 a{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -66,7 +66,8 @@ h2{
     font-family: 'Heebo', sans-serif;
 }
   
-#navbar a:active, #navbar a:hover, #navbar a:focus{
+#navbar a:active, #navbar a:hover, #navbar a:focus,
+#navbar_1 a:active, #navbar_1 a:hover, #navbar_1 a:focus,{
     text-decoration: underline;
     text-decoration-color: white;
 }
