@@ -126,7 +126,7 @@
 @media (min-width: 44rem) {
 
     #intro{
-        font-size: 1.2rem;
+        font-size: 2rem;
         margin:0;
         line-height:1;
     }
@@ -234,7 +234,7 @@
     }
 
     #intro, .work-grid{
-        margin: 10rem 8rem;
+        margin: 10rem 6rem;
     }
 
     .color-grid{
