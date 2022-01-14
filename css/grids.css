@@ -337,7 +337,7 @@
     }
 
     #intro, .work-grid{
-        margin: 10rem 17rem;
+        margin: 10rem 15rem;
     }
 
     .color-grid{
@@ -357,7 +357,7 @@
     }
 
     #work-navbar-index{
-        margin-left: 17rem;
+        margin-left: 15rem;
     }
 
     .orange-box{
@@ -411,7 +411,7 @@
     }
     
     h1 {
-        font-size: 1.6em; 
+        font-size: 1.4em; 
         margin: 0.67em 0;
         line-height: 1.35;
     }
