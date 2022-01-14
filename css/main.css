@@ -96,6 +96,13 @@ h2{
     margin-bottom: 1rem;
 }
 
+.intro-desc{
+    color: #AFAFAF;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
 .link{
     color: #9F5640;
     font-family: 'Heebo', sans-serif;
