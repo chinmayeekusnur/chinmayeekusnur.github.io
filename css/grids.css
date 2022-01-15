@@ -167,7 +167,10 @@
         grid-row-gap: 2rem;
     }
 
-    #intro, .work-grid{
+    #intro{
+        margin: 8rem 8rem 8rem 6rem;
+    }
+    .work-grid{
         margin: 6rem 8rem;
     }
 
@@ -269,7 +272,11 @@
         
     }
 
-    #intro, .work-grid{
+    #intro{
+        margin: 12rem 6rem 10rem 6rem;
+    }
+    
+    .work-grid{
         margin: 10rem 6rem;
     }
 
@@ -352,7 +359,11 @@
         
     }
 
-    #intro, .work-grid{
+    #intro{
+        margin: 12rem 15rem 10rem 15rem;
+    }
+    
+   .work-grid{
         margin: 10rem 15rem;
     }
 
