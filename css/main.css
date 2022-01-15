@@ -138,6 +138,12 @@ h2{
     margin-top: -0.7rem;
 }
 
+.caption{
+    color: #AFAFAF;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
 .project-desc{
     color: #252526;
     font-family: 'Heebo', sans-serif;
