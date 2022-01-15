@@ -37,7 +37,7 @@ h2{
     position: fixed;
     width: 100%;
     display: block;
-    top: -5px;
+    
     
 }
 
@@ -101,7 +101,7 @@ h2{
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 
