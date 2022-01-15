@@ -139,9 +139,10 @@ h2{
 }
 
 .caption{
-    color: #AFAFAF;
+    color: #252526;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
+    font-style: italic;
 }
 
 .project-desc{
