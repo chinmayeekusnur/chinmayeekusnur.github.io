@@ -1,11 +1,11 @@
 h1{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 700;
     color: #252526;
 }
 
 h2{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 700;
     color: #252526;
 }
@@ -67,7 +67,7 @@ h2{
     padding-bottom: 1.5rem;
     text-decoration: none;
     font-size: 1.1rem;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 #navbar_1 a{
@@ -79,7 +79,7 @@ h2{
     padding-bottom: 1.5rem;
     text-decoration: none;
     font-size: 1.1rem;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
   
 #navbar a:active, #navbar a:hover, #navbar a:focus,
@@ -94,7 +94,7 @@ h2{
 
 .project-name{
     color: #252526;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -102,7 +102,7 @@ h2{
 
 .footer-desc{
     color: #252526;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
     font-size: 1rem;
@@ -137,34 +137,34 @@ h2{
 
 .project-info{
     color: #AFAFAF;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     margin-top: -0.7rem;
 }
 
 .caption{
     color: #252526;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     font-style: italic;
 }
 
 .project-desc{
     color: #252526;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     margin-top: 1rem;
     line-height: 1.6;
 }
 
 .role, .team, .duration{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
 .main, .main-1{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height:1.6;
