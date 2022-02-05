@@ -11,7 +11,9 @@ h2{
 }
 
 .grey{
-    color: #AFAFAF;
+    color: #979797;
+    line-height: 10px;
+    font-size: 1rem;
 }
 
 #ux{
@@ -136,7 +138,7 @@ h2{
 }
 
 .project-info{
-    color: #AFAFAF;
+    color: #979797;
     font-family: 'Graphik', sans-serif;
     font-weight: 400;
     margin-top: -0.7rem;
