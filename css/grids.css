@@ -9,21 +9,12 @@
 @media (min-width: 20rem) {
 
     #intro{
-        font-size: 1.2rem;
-        margin:0;
+        font-size: 1rem;
         line-height:1;
-        
-    }
-    
-    h1 {
-        font-size: 1.4em; 
-        margin: 0.67em 0;
-        line-height: 1.4;
     }
 
     #intro-covinize{
         font-size: 2rem;
-        margin:0;
         line-height:1;
     }
 
@@ -39,14 +30,24 @@
         margin-top:-1rem;
     }
 
-    #intro, .work-grid, #intro-covinize, .landing-page-description{
-        margin: 1.5rem;
+    #intro{
+        margin: 6rem 2rem 4rem 2rem;
+        
     }
 
-    #intro{
-        margin-top: 6rem;
-        margin-bottom: 3rem;
+    .projects{
+        margin: 4rem 2rem 4rem 2rem;
     }
+
+    .projects-text{
+        margin: 2rem 4rem;
+    }
+
+    #intro-project{
+        margin: 8rem 2rem 2rem 2rem;
+    }
+
+    
 
     .color-grid{
         margin: 1.5rem;
@@ -82,7 +83,7 @@
     }
 
     .desktop-version{
-        display: inline-block;
+        display: none;
     }
 
     .mobile-version{
@@ -92,61 +93,12 @@
     #tree-img{
         margin-bottom:2rem;
     }
-    
-    .footer-margin{
-        margin-top: 4rem;
-    }
 }
 
-@media (min-width: 28rem) {
+@media (min-width: 48rem) {
 
     #intro{
-        font-size: 2rem;
-        margin:0;
-        line-height:1;
-    }
-
-    #intro-covinize{
-        font-size: 2rem;
-        margin:0;
-        line-height:1;
-    }
-
-    .work-grid, #intro-covinize, .landing-page-description{
-        margin: 4rem;
-    }
-    
-    #intro{
-        margin: 6rem;
-    }
-
-    .color-grid{
-        margin: 4rem;
-    }
-
-    #work-navbar, #work-navbar-index{
-        margin-left: 4rem;
-    }
-
-    #tree-img{
-        margin-bottom:4rem;
-    }
-    
-    h1 {
-        font-size: 1.3em; 
-        margin: 0.67em 0;
-        line-height: 1.35;
-    }
-    
-    .footer-margin{
-        margin-top: 4rem;
-    }
-}
-
-@media (min-width: 44rem) {
-
-    #intro{
-        font-size: 1.6rem;
+        font-size: 1em;
         margin:0;
         line-height:1;
     }
@@ -156,8 +108,8 @@
     }
 
     #intro-covinize{
-        font-size: 1.6rem;
-        margin:0;
+        font-size: 2.5rem;
+        
         line-height:1;
     }
 
@@ -167,19 +119,15 @@
         grid-row-gap: 2rem;
     }
 
-    #intro{
-        margin: 8rem 8rem 8rem 6rem;
-    }
-    .work-grid{
-        margin: 6rem 8rem;
-    }
+    
+
 
     .color-grid{
         margin: 0 8rem;
     }
 
     #work-navbar, #work-navbar-index{
-        margin-left: 8rem;
+        margin-left: 12rem;
     }
 
     #intro-covinize{
@@ -188,6 +136,23 @@
 
     .landing-page-description{
         margin: 3rem 8rem 5rem 8rem;
+    }
+
+    #intro{
+        margin: 16rem 8rem 4rem 8rem;
+        
+    }
+
+    .projects{
+        margin: 8rem 8rem 4rem 8rem;
+    }
+
+    .projects-text{
+        margin: 2rem 8rem;
+    }
+
+    #intro-project{
+        margin: 8rem 8rem 2rem 8rem;
     }
 
     .orange-box{
@@ -206,6 +171,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 2rem;
         
+    }
+
+    .grid.four-column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+         
     }
 
     #green, #yellow, #beige{
@@ -227,42 +198,56 @@
     }
 
     .desktop-version{
-        display: inline-block;
+        display: none;
     }
 
     .mobile-version{
         display: inline-block;
     }
-    
-    h1 {
-        font-size: 1.3em; 
-        margin: 0.67em 0;
-        line-height: 1.35;
+
+    .block {
+        margin-bottom: 2rem;
     }
-    
-    .footer-margin{
-        margin-top: 8rem;
+
+    .p-lm{
+        margin-top: 0.5rem;
+    }
+
+    .project-img{
+        margin-top: 4rem;
+    }
+
+    .pb{
+        margin-top:1rem;
     }
 
 }
 
 @media (min-width: 67rem) {
-    
-    h1 {
-        font-size: 1.3em; 
-        margin: 0.67em 0;
-        line-height: 1.35;
-    }
 
     #intro, #intro-covinize{
-        font-size: 1.6rem;
-        margin:0;
-        line-height:1;
+        font-size: 1.2rem;
+        
+        line-height:1.2;
+    }
+
+    #sub{
+        font-size: 1.4rem;
+    }
+
+    .ind{
+        margin-bottom: 4rem;
     }
 
     .grid.two-column{
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+        grid-row-gap: 2rem;
+    }
+
+    .grid.two-column-ind{
+        grid-template-columns: 1fr 4fr;
+        grid-gap: 6rem;
         grid-row-gap: 2rem;
     }
 
@@ -271,13 +256,31 @@
         grid-column-gap: 2rem;
         
     }
-
-    #intro{
-        margin: 12rem 6rem 10rem 6rem;
-    }
     
-    .work-grid{
-        margin: 10rem 6rem;
+    #intro{
+        margin: 24rem 12rem 8rem 12rem;
+        
+    }
+
+    .projects{
+        margin: 12rem 12rem 8rem 12rem;
+    }
+
+    .projects-text{
+        margin: 4rem 12rem;
+    }
+
+    #intro-project{
+        margin: 10rem 12rem 4rem 12rem;
+    }
+
+    .grid.four-column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+    }
+
+    #footer-background{
+        padding: 4rem 12rem;
     }
 
     .color-grid{
@@ -332,114 +335,22 @@
     .desktop-version{
         display: inline-block;
     }
-    
-    .footer-margin{
-        margin-top: 8rem;
+
+    .block {
+        margin-bottom: 6rem;
+    }
+
+    .p-lm{
+        margin-top: 2rem;
+    }
+
+    .project-img{
+        margin-top: 0rem;
+    }
+
+    .pb{
+        margin-top:3rem;
     }
 }
 
 
-@media (min-width: 75rem) {
-
-    #intro, #intro-covinize{
-        font-size: 2.75rem;
-        margin:0;
-        line-height:1;
-    }
-
-    .grid.two-column{
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 4rem;
-        grid-row-gap: 2rem;
-    }
-
-    .grid.three-column{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 2rem;
-        
-    }
-
-    #intro{
-        margin: 12rem 15rem 10rem 15rem;
-    }
-    
-   .work-grid{
-        margin: 10rem 15rem;
-    }
-
-    .color-grid{
-        margin: 0 20rem;
-    }
-
-    #intro-covinize{
-        margin: 8rem 20rem 4rem 20rem;
-    }
-
-    .landing-page-description{
-        margin: 5rem 20rem 4rem 20rem;
-    }
-    
-    #work-navbar{
-        margin-left: 10rem;
-    }
-
-    #work-navbar-index{
-        margin-left: 15rem;
-    }
-
-    .orange-box{
-        background-color: #9F5640;
-        padding: 4rem 2rem;
-        border-radius: 0.5rem;
-        width: 100%;
-    }
-
-    #green, #yellow, #beige{
-        width: 100%;
-        padding: 4rem;
-    }
-
-    .project-name{
-        font-size: 2rem;
-    }
-
-    .project-info{
-        font-size: 0.8rem;
-        margin-bottom: 1.2rem;
-    }
-    
-    .project-desc{
-        font-size: 1.1rem;
-        
-    }
-
-    .heading{
-        margin-top:0;
-    }
-
-    .sub-heading{
-        margin-top: 4rem;
-    }
-
-    #tree-img{
-        margin-bottom:4rem;
-    }
-
-    .mobile-version{
-        display: none;
-    }
-
-    .desktop-version{
-        display: inline-block;
-    }
-    
-    h1 {
-        font-size: 1.35em; 
-        margin: 0.67em 0;
-        line-height: 1.35;
-    }
-    
-    .footer-margin{
-        margin-top: 8rem;
-    }
-}
