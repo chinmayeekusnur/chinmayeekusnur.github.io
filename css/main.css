@@ -1,26 +1,111 @@
+h1, #sub{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    
+}
+
 h1{
-    font-family: 'Graphik', sans-serif;
-    font-weight: 700;
-    color: #252526;
+    font-weight:500;
+    width: 100%;
 }
 
 h2{
-    font-family: 'Graphik', sans-serif;
-    font-weight: 700;
-    color: #252526;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
 }
 
-.grey{
-    line-height: 10px;
-    font-size: 1rem;
+.block {
+    margin-bottom: 6rem;
 }
 
-.c-img{
+.project-img{
+    display: inline-block;
+    width: 100%;
+}
+
+.project-img-ind{
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-#ux{
-    color: #9F5640;
+.container  {
+    text-align: left;
+}
+
+#brief{
+    color: #D62D88;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.p-title-ind{
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.p-desc-ind{
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+
+.p-title, .p-desc, .p-lm{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    text-decoration: none;
+} 
+
+.img-caption{
+    font-family: 'Inter', sans-serif;
+    color: #a2a2a2;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+} 
+
+.currently{
+    font-family: 'Inter', sans-serif;
+    margin-top: 1.5rem;
+    line-height: 1.3;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.p-title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    /* margin-top: 5rem; */
+}
+
+.p-desc{
+    margin-top: 1.5rem;
+    line-height: 1.3;
+}
+
+.p-lm{
+    font-weight: 500;
+    color: #D62D88;
+}
+
+
+.p-lm a{
+    color: #D62D88;
+    text-decoration: none;
+}
+
+.p-lm a:active, .p-lm a:hover, .p-lm a:focus{
+    color: #000000;
 }
 
 .orange-box{
@@ -32,9 +117,7 @@ h2{
 }
 
 #footer-background{
-    background-color: #9F5640;
-    padding:4rem;
-    
+    background-color: #ECECEC;  
 }
 
 #footer-email{
@@ -42,81 +125,55 @@ h2{
 }
 
 #navbar{
-    background-color: #252526;
+    background-color: white;
     position: fixed;
     width: 100%;
     display: block;
-    
-    
-}
-
-#navbar_1{
-    background-color: #252526;
-    position: fixed;
-    width: 100%;
-    display: block;
-    top: 0px;
-}
-
-#navbar {
-    top: 0px;
-    transition: top 0.3s;
+    border-bottom: 3px solid white;
+    box-shadow: 5px 5px 4px #c5c5c5;
 }
   
 #navbar a{
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-family: 'Graphik', sans-serif;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 
-#navbar_1 a{
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 1.5rem;
+.projects-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.t{
     padding-bottom: 1.5rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-family: 'Graphik', sans-serif;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
   
-#navbar a:active, #navbar a:hover, #navbar a:focus,
-#navbar_1 a:active, #navbar_1 a:hover, #navbar_1 a:focus,{
-    text-decoration: underline;
-    text-decoration-color: white;
-}
+
 
 #work-navbar, #work-navbar-index{
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .project-name{
     color: #252526;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.footer-desc{
-    color: #252526;
-    font-family: 'Graphik', sans-serif;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    text-align: center;
-}
-
 .link{
     color: #9F5640;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-top: 1rem;
     text-decoration: underline;
@@ -141,37 +198,30 @@ h2{
 }
 
 .project-info{
-    color: #979797;
-    font-family: 'Graphik', sans-serif;
+    color: #AFAFAF;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-top: -0.7rem;
 }
 
-.caption{
-    color: #252526;
-    font-family: 'Graphik', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
 .project-desc{
     color: #252526;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-top: 1rem;
     line-height: 1.6;
 }
 
 .role, .team, .duration{
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .main, .main-1{
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height:1.6;
 }
 
@@ -203,7 +253,7 @@ h2{
 }
 
 #green, #yellow, #beige{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     text-align: center;
@@ -211,16 +261,16 @@ h2{
 }
 
 .color-description{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height:1.6;
     padding-top: 1rem; 
     text-align: left;
     border:none;
 }
 
-#tree-img, .main-img{
+#tree-img{
     width:100%;
     border-radius: 0.5rem;
 } 
