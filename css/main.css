@@ -117,7 +117,8 @@ h2{
 }
 
 #footer-background{
-    background-color: #ECECEC;  
+    border-top: 3px solid white;
+    box-shadow: 5px 5px 4px #c5c5c5;
 }
 
 #footer-email{
