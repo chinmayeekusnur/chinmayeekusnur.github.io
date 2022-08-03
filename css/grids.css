@@ -93,6 +93,10 @@
     #tree-img{
         margin-bottom:2rem;
     }
+    
+    .pb{
+        margin-top:1rem;
+    }
 }
 
 @media (min-width: 48rem) {
@@ -218,7 +222,7 @@
     }
 
     .pb{
-        margin-top:1rem;
+        margin-top:3rem;
     }
 
 }
@@ -348,7 +352,7 @@
     }
 
     .pb{
-        margin-top:3rem;
+        margin-top:5rem;
     }
 }
 
