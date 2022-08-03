@@ -12,6 +12,11 @@
         font-size: 1.4rem;
         line-height:1;
     }
+    
+    #intro-project{
+        font-size: 2rem;
+        line-height:1;
+    }
 
     #intro-covinize{
         font-size: 2rem;
@@ -104,6 +109,11 @@
     #intro{
         font-size: 1.4rem;
         margin:0;
+        line-height:1;
+    }
+    
+    #intro-project{
+        font-size: 1.4rem;
         line-height:1;
     }
 
@@ -232,6 +242,11 @@
     #intro, #intro-covinize{
         font-size: 1.6rem;
         line-height:1.2;
+    }
+    
+    #intro-project{
+        font-size: 1.6rem;
+        line-height:1;
     }
 
     #sub{
