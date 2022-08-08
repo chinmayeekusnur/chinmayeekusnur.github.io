@@ -85,7 +85,7 @@
 
     .sub-heading{
         margin-top: 4rem;
-    }
+    }p
 
     .desktop-version{
         display: none;
@@ -100,7 +100,7 @@
     }
     
     .pb{
-        margin-top:1rem;
+        padding: 10%;
     }
 }
 
@@ -223,16 +223,14 @@
         margin-bottom: 2rem;
     }
 
-    .p-lm{
-        margin-top: 0.5rem;
-    }
+    
 
     .project-img{
         margin-top: 4rem;
     }
 
     .pb{
-        margin-top:1rem;
+        padding: 10%;
     }
 
 }
@@ -358,16 +356,14 @@
         margin-bottom: 6rem;
     }
 
-    .p-lm{
-        margin-top: 2rem;
-    }
+    
 
     .project-img{
         margin-top: 0rem;
     }
 
     .pb{
-        margin-top:5rem;
+        padding: 10%;
     }
 }
 
