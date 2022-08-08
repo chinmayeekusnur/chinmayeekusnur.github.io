@@ -276,12 +276,12 @@
     }
     
     #intro{
-        margin: 12rem 12rem 8rem 12rem;
+        margin: 12rem 8rem 8rem 8rem;
         
     }
 
     .projects{
-        margin: 8rem 12rem 8rem 12rem;
+        margin: 8rem 8rem 8rem 8rem;
     }
 
     .projects-text{
@@ -289,7 +289,7 @@
     }
 
     #intro-project{
-        margin: 10rem 12rem 4rem 12rem;
+        margin: 10rem 8rem 4rem 8rem;
     }
 
     .grid.four-column{
