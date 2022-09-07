@@ -367,4 +367,27 @@
     }
 }
 
+@media (min-width: 67rem) {
 
+    #intro, #intro-covinize{
+        font-size: 1.6rem;
+        line-height:1.2;
+    }
+    
+    #intro{
+        margin: 12rem 16rem 8rem 16rem;
+        
+    }
+
+    .projects{
+        margin: 8rem 16rem 8rem 16rem;
+    }
+    
+     #intro-covinize{
+        margin: 10rem 16rem 3rem 16rem;
+    }
+
+    .landing-page-description{
+        margin: 2rem 16rem 3rem 16rem;
+    }
+}
