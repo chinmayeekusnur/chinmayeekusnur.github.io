@@ -367,7 +367,7 @@
     }
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 93rem) {
 
     #intro, #intro-covinize{
         font-size: 1.6rem;
@@ -375,26 +375,26 @@
     }
     
     #intro{
-        margin: 12rem 16rem 8rem 16rem;
+        margin: 12rem 20rem 8rem 20rem;
         
     }
 
     .projects{
-        margin: 8rem 16rem 8rem 16rem;
+        margin: 8rem 20rem 8rem 20rem;
     }
     
      #intro-covinize{
-        margin: 10rem 16rem 3rem 16rem;
+        margin: 10rem 20rem 3rem 20rem;
     }
 
     .landing-page-description{
-        margin: 2rem 16rem 3rem 16rem;
+        margin: 2rem 20rem 3rem 20rem;
     }
     
     #footer-background{
-        padding: 4rem 16rem;
+        padding: 4rem 20rem;
     } 
     
     #work-navbar, #work-navbar-index{
-        margin-left: 16rem;
+        margin-left: 20rem;
 }
