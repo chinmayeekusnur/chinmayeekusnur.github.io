@@ -390,4 +390,11 @@
     .landing-page-description{
         margin: 2rem 16rem 3rem 16rem;
     }
+    
+    #footer-background{
+        padding: 4rem 16rem;
+    } 
+    
+    #work-navbar, #work-navbar-index{
+        margin-left: 16rem;
 }
