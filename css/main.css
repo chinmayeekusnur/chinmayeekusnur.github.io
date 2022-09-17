@@ -62,6 +62,16 @@ h2{
     text-decoration: none;
 } 
 
+.p-title a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.p-title a:active, .p-title a:hover, .p-title a:focus{
+    color: #000000;
+    text-decoration: none;
+}
+
 .img-caption{
     font-family: 'Inter', sans-serif;
     color: #a2a2a2;
